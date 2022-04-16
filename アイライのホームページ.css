@@ -60,6 +60,11 @@ h2::after {
 	justify-content: center;
 }
 
+.hobby li　{
+        width: 250px;
+	margin-left:auto; margin-right:auto;
+}
+
 .warming {
 	width: 500px;
 	margin-left: auto; margin-right: auto;
