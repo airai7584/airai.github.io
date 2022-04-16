@@ -10,10 +10,10 @@ h1{
 	text-align: center;
 }
 
-.big-warming{
+.big-warning{
 	color: red;
 	font-size: 30px;
-	border: 3px double yellow;
+	padding-top: 100px;
 }
 
 header{
@@ -55,12 +55,6 @@ h2::before {
 }
 h2::after {
 	margin-left: 20px;
-}
-
-.big-warning{
-	color: red;
-	font-size: 30px;
-	padding-top: 100px;
 }
 
 .link-list li {
