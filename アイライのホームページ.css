@@ -1,7 +1,6 @@
 body{
-	background-color: black;
-	color: white;
-	background-image: url("moroccan-flower-dark.webp");
+	background-color: white;
+	color: black;
 	background-size:cover;
 	background-position: center;
 }
@@ -45,7 +44,7 @@ header{
 	display: flex;
 	width: 100%;
 	height: 100px;
-	background-color: darkgrey;
+	background-color: black;
 	align-items: center;
 	margin: 0px;
 	padding: 0px;
@@ -55,6 +54,7 @@ header{
 	list-style:none;
 	display: inline-block;
 	padding: 10px;
+	color: white;
 }
 
 .big-warming{
@@ -69,7 +69,7 @@ header{
 	justify-content: center;
 }
 
-.hobby ul,li{
+.hobby-list ul,li{
 	width: 500px;
 	margin-left:auto; margin-right:auto;
 
@@ -78,10 +78,6 @@ header{
 .warming {
 	width: 500px;
 	margin-left: auto; margin-right: auto;
-}
-
-.thanks{
-  color :white;
 }
 
 .thanks p{
