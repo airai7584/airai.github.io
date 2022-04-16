@@ -1,69 +1,88 @@
-<!DOCTYPE html>
-<html>
-<head>
- <meta charset="UTF-8">
- <title>アイライのホームページ</title>
- <link rel="stylesheet" type="text/css" href="アイライのホームページ.css">
-</head>
-<body>
-  <div class="header">
- <header>
-   <h1><a href="https://airai7584.github.io/"><img src="AIRAI-logo.png" height="100"></a></h1>
-  <ul class="header-list">
-  <li>視聴済みアニメ一覧（作成予定）</li>
-  <li>沿革（作成予定）</li>
- </ul>
-</header>
-</div>
+body{
+	background-color: white;
+	color: black;
+	background-size:cover;
+	background-position: center;
+}
 
- <p class="big-warming">当サイトはウェブ開発初心者による練習用みたいなものです。</p>
+h1{
+	align-items: center;
+	text-align: center;
+}
 
- <h2 class="self-introduction">自己紹介</h2>
- <p>東海に住む高２です。都道府県はツイート見たら大体わかるかも？<br>好きな教科は社会ですが、文理では理系です。<br>アニメが好きです。よかったら仲良くしてください！</p>
+.big-warming{
+	color: red;
+	font-size: 30px;
+	border: 3px double yellow;
+}
 
- <h2 class="hobby">趣味など</h2>
- <ul class="hobby-list">
-  <li>アニメ（特にラブコメ）</li>
-  <li>旅行（鉄道やバスに乗っての旅行が特に好き）</li>
-  <li>ウェブ開発（初心者です）</li>
-  <li> 漫画（特にきらら系）</li>
-  <li>世界史（近現代が特に好き）</li>
- </ul>
+header{
+	display: flex;
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	align-items: center;
+	top: 0;
+	left: 0;
+	position: fixed;
+}
 
- <h2>外部リンク集</h2>
- <div class="link-list">
-  <ul>
-   <li><a href="https://twitter.com/kYYFNuWDrBiL3u8"><img src="twitter.png" height="100"></a></li>
-   <li><p>Twitter</p></li>
-   <li><a href="https://peing.net/en/kyyfnuwdrbil3u8"><img src="header_logo-0fc157ae79ee6c264ca183928171e56b.png"  height="100"></a></li>
-   <li><p>質問箱</p></li>
-   <li><a href="https://kuizy.net/quiz/232496"><img src="kuizy.png" height="100"></a></li>
-   <li><p>クイズ</p></li>
-   <li><a href="https://www.nicovideo.jp/mylist/72953505"><img src="niconico-icon.png" height="100"></a></li>
-   <li><p>ニコニコ動画マイリスト</p></li>
- </ul>
-</div>
+.header li{
+	list-style:none;
+	display: inline-block;
+	padding: 10px;
+	color: white;
+}
 
-<h2>ツイートについて</h2>
-<div class="warming">
-<p>2022/04/13更新 </p>
- <ol>
-  <li>浮上時間に偏りあり</li>
-  <li>通知オンは自己責任で。RTも多い</li>
-  <li>アニメ、漫画系のツイート中心</li>
-  <li>政治意見とかは基本控えるがリプ欄では普通にする</li>
-  <li>変なアカウント以外、基本フォロバ100%</li>
-</oi>
-</div>
+h2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 26px;
+	text-align: center;
+}
 
-<h2>謝辞（敬称略）</h2>
-<div class="thanks">
- <ul>
-  <li><a href="https://www.toptal.com/designers/subtlepatterns/">toptal</a><p>背景画像提供</p></li>
-  <li><a href="http://emblemmatic.org/markmaker/#/">MARK MAKER</a><p>ロゴ提供</p></li>
-  <li><a href="https://twitter.com/DraconianMoral?s=20&t=jk_SRRwjfHpT2TVFh0ZieQ">彼岸</a><p>ウェブ政策にあたりアドバイスをいただきました。</p></li>
-</ul>
-</div>
+h2::before,
+h2::after {
+	content: '';
+	width: 70px;
+	height: 3px;
+	background-color: #e3bf00;
+}
 
-</body>
-</html>
+h2::before {
+	margin-right: 20px;
+}
+h2::after {
+	margin-left: 20px;
+}
+
+.big-warning{
+	color: red;
+	font-size: 30px;
+	padding-top: 100px;
+}
+
+.link-list li {
+	display: flex;
+	justify-content: center;
+}
+
+.hobby-list ul,li{
+	width: 500px;
+	margin-left:auto; margin-right:auto;
+
+}
+
+.warming {
+	width: 500px;
+	margin-left: auto; margin-right: auto;
+}
+
+.thanks p{
+	text-align: left;
+}
+
+p{
+	text-align: center;
+}
