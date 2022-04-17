@@ -1,5 +1,5 @@
 body{
-	background-color: white;
+	background-color: #cccccc;
 	color: black;
 	background-size:cover;
 	background-position: center;
@@ -34,6 +34,26 @@ header{
 	color: white;
 }
 
+.container {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-contents{
+	width: 70%;
+	padding: 10px;
+	background-color: #cccccc;
+}
+
+.side-menu {
+	width: 20%;
+	padding: 0px;
+	background-color: white;
+	padding-top: 100px
+}
+
 h2 {
 	display: flex;
 	justify-content: center;
@@ -59,7 +79,7 @@ h2::after {
 
 .link-list li {
 	display: flex;
-	justify-content: center;
+	padding: auto
 }
 
 .hobby-list ul,li{
