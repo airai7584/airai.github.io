@@ -5,21 +5,9 @@ body{
 	background-position: center;
 }
 
-@media screen and (min-width: 479px) {
-	#menu-bg{
-		font-size: large;
-	}
-}
-
 h1{
 	align-items: center;
 	text-align: centerlar
-}
-
-.big-warning{
-	color: red;
-	font-size: 30px;
-	padding-top: 100px;
 }
 
 .anime-list{
@@ -55,6 +43,7 @@ header{
 	width: 70%;
 	padding: 10px;
 	background-color: #cccccc;
+	padding-top: 100px;
 }
 
 .side-menu {
