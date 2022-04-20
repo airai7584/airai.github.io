@@ -124,13 +124,10 @@ nav {
 	background-color: #cccccc;}
 
 .co-main, .about-my-tweet, .anime-list{
+  width: 75%;
+  margin-left: auto; margin-right: auto;
   padding-top: 100px;
 }
-
-.warning {
-  text-align: center;
-}
-
 
 .side {
 	width: 25%;
