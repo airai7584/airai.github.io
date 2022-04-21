@@ -123,10 +123,13 @@ nav {
 	padding: 10px;
 	background-color: #cccccc;}
 
-.co-main, .about-my-tweet, .anime-list{
-  width: 75%;
+.co-main, .about-my-tweet, .anime-list h2{
+  padding-top: 100px
+}
+
+.co-main, .about-my-tweet, .anime-list ul{
+  width: 500px;
   margin-left: auto; margin-right: auto;
-  padding-top: 100px;
 }
 
 .side {
