@@ -91,7 +91,17 @@ nav {
   color: #00F;
 }
 
+.main {
+	width: 70%;
+	padding: 10px;
+	background-color: #cccccc;
+}
+
 @media screen and (max-width: 767px){
+.main {
+  width: 100%;
+}
+
 .news-list .item a{
   flex-wrap: wrap;
 }
@@ -100,6 +110,10 @@ nav {
 }
 .news-list .item .title{
   margin-top: 10px;
+}
+
+.side {
+  display: none;
 }
 }
 
@@ -118,11 +132,6 @@ nav {
   padding-top: 100px
 }
 
-.main {
-	width: 70%;
-	padding: 10px;
-	background-color: #cccccc;}
-
 .co-main, .about-my-tweet, .anime-list h2{
   padding-top: 100px
 }
@@ -131,13 +140,6 @@ nav {
   width: 500px;
   margin-left: auto; margin-right: auto;
 }
-
-.side {
-	width: 25%;
-	padding: 0px;
-	background-color: white;
-}
-
 
 h2 {
 	display: flex;
