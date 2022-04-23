@@ -97,7 +97,7 @@ nav {
 	background-color: #cccccc;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 1284px){
 .main {
   width: 100%;
 }
