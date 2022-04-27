@@ -97,12 +97,16 @@ nav {
 	background-color: #cccccc;
 }
 
+.niconico-for-mobile {
+  display: none;
+}
+
 @media screen and (max-width: 768px){
 
  body {
    width: 100%
  }
- 
+
 .main {
   width: 100%;
 }
@@ -119,6 +123,14 @@ nav {
 
 .side {
   display: none;
+}
+
+.niconico-for-pc {
+  display: none;
+}
+
+.niconico-for-mobile {
+  display: block;
 }
 
 }
