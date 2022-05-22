@@ -13,30 +13,48 @@
     <h1>
       <a href="index.html"><img src="AIRAI-logo.png" height="200px"></a>
     </h1>
-    <div class="openbtn"><span></span><span></span><span></span></div>
-      <nav id="g-nav">
-        <div id="g-nav-list"><!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
-          <ul>
-            <li><a href="index2.html">Notice</a></li>
-            <li><a href="index3.html">Links</a></li>
-            <li><a href="index4.html">Thanks</a></li>
-            <li><a href="index5.html">AnimeList</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    
- <div class="about-my-tweet">
-  <h2>ツイートについて</h2>
-   <p>2022/04/13更新 </p>
-    <ol>
-     <li>浮上時間が偏ってるのでいつも何時間たっても反応が来ないことがある。</li>
-     <li>ツイートの頻度は不定。通知とかは自己責任で。RTも多め。</li>
-     <li>アニメ、漫画系のツイートが中心かなと思う。</li>
-     <li>政治意見とかは基本控えるがリプ欄では普通にする。けど反論とかはしないように気を付ける。</li>
-     <li>怪しいアカウント以外、基本フォロバ100%。アニメ垢ならこっちから絡みに行くかも！</li>
-    </oi>
- </div>
+
+  <div id="sample1">
+      <input type="radio" name="langKbn" id="sJa" onClick="langSet('ja')" checked>
+      <label for="sJa">
+        <span class="langCng" lang="ja">日本語</span>
+        <span class="langCng" lang="en">日本語</span>
+      </label>
+
+      <input type="radio" name="langKbn" id="sEn" onClick="langSet('en')">
+      <label for="sEn">
+        <span class="langCng" lang="ja">English</span>
+        <span class="langCng" lang="en">English</span>
+      </label>
+
+     <div class="openbtn"><span></span><span></span><span></span></div>
+       <nav id="g-nav">
+         <div id="g-nav-list"><!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
+           <ul>
+             <li><a href="index2.html">Notice</a></li>
+             <li><a href="index3.html">Links</a></li>
+             <li><a href="index4.html">Thanks</a></li>
+             <li><a href="index5.html">AnimeList</a></li>
+           </ul>
+         </div>
+       </nav>
+     </header>
+
+  <div class="about-my-tweet">
+   <h2 class="langCng" lang="ja">ツイートについて</h2>
+   <h2 class="langCng" lang="en">About My Tweet</h2>
+
+    <p class="langCng" lang="ja">2022/04/13更新 </p>
+    <p class="langCng" lang="en">Update Date:2022/04/13</p>
+     <ol>
+      <li class="langCng" lang="ja">アニメ、漫画系のツイートが多い</li>
+      <li class="langCng" lang="en">tweet about anime and manga is much.</li>
+      <li class="langCng" lang="ja">怪しいアカウント以外、基本フォロバ100%。</li>
+      <li class="langCng" lang="en">f4f (exc:suspicious account).
+     </oi>
+  </div>
+
+  </div>
 
  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
  <!--自作のJS-->

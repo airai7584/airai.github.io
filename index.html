@@ -9,88 +9,114 @@
 
 <body>
 
-  <header class="header">　
-    <h1>
-      <a href="index.html"><img src="AIRAI-logo.png" height="200px"></a>
-    </h1>
-    <div class="openbtn"><span></span><span></span><span></span></div>
-      <nav id="g-nav">
-        <div id="g-nav-list"><!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
-          <ul>
-            <li><a href="index2.html">Notice</a></li>
-            <li><a href="index3.html">Links</a></li>
-            <li><a href="index4.html">Thanks</a></li>
-            <li><a href="index5.html">AnimeList</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+   <header class="header">　
+     <h1>
+       <a href="index.html"><img src="AIRAI-logo.png" height="200px"></a>
+     </h1>
 
-  <div class="container">
+  <div id="sample1">
+    <input type="radio" name="langKbn" id="sJa" onClick="langSet('ja')" checked>
+    <label for="sJa">
+      <span class="langCng" lang="ja">日本語</span>
+      <span class="langCng" lang="en">日本語</span>
+    </label>
 
-    <div class="main">
+    <input type="radio" name="langKbn" id="sEn" onClick="langSet('en')">
+    <label for="sEn">
+      <span class="langCng" lang="ja">English</span>
+      <span class="langCng" lang="en">English</span>
+    </label>
 
-      <h2>お知らせ</h2>
-      <ul class="news-list">
-        <li class="item">
-          <a href="https://twitter.com/kYYFNuWDrBiL3u8/status/1518588574702370816?s=20&t=2rHRXKcjqGsB31dRDj7lOw">
-            <p class="date">2022/04/25</p>
-            <p class="category"><span>お知らせ</span></p>
-            <p class="title">スマホ対応のお知らせ</p>
-          </a>
-        </li>
+     <div class="openbtn"><span></span><span></span><span></span></div>
+       <nav id="g-nav">
+         <div id="g-nav-list"><!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
+           <ul>
+             <li><a href="index2.html">Notice</a></li>
+             <li><a href="index3.html">Links</a></li>
+             <li><a href="index4.html">Thanks</a></li>
+             <li><a href="index5.html">AnimeList</a></li>
+           </ul>
+         </div>
+       </nav>
+     </header>
 
-        <li class="item">
-          <a href="https://twitter.com/kYYFNuWDrBiL3u8/status/1516697988626010121?s=20&t=kpGZ5G-3bmRJzIc30wXJyQ">
-            <p class="date">2022/04/20</p>
-            <p class="category"><span>お知らせ</span></p>
-            <p class="title">大幅リニューアルのお知らせ</p>
-          </a>
-        </li>
-      </ul>
+   <div class="container">
+     <div class="main">
+       <h2 class="langCng" lang="ja">お知らせ</h2><h2 class="langCng" lang="en">News</h2>
+       <ul class="news-list">
+         <li class="item">
+           <a href="https://twitter.com/kYYFNuWDrBiL3u8/status/1518588574702370816?s=20&t=2rHRXKcjqGsB31dRDj7lOw">
+             <p class="date">2022/04/25</p>
+             <p class="category"><span class="langCng" lang="ja">お知らせ</span><span class="langCng" lang="en">news</span></p>
+             <p class="langCng title" lang="ja">スマホ版対応について</p>
+             <p class="langCng title" lang="en">About corresponding for mobile.</p>
+           </a>
+         </li>
+
+         <li class="item">
+           <a href="https://twitter.com/kYYFNuWDrBiL3u8/status/1516697988626010121?s=20&t=kpGZ5G-3bmRJzIc30wXJyQ">
+             <p class="date">2022/04/20</p>
+             <p class="category"><span class="langCng" lang="ja">お知らせ</span><span class="langCng" lang="en">news</span></p>
+             <p class="langCng title" lang="ja">大幅リニューアルについて</p><p class="langCng title" lang="en">About big renovation</p>
+           </a>
+         </li>
+       </ul>
 
 
 
-      <h2>基本情報</h2>
-　     <table border="1" width="90%">
-      <tr>
-        <th width="20%">名前</th>
-        <th width="80%">アイライ</th>
-      </tr>
-      <tr>
-        <th>年齢</th>
-        <th>１６歳</th>
-      </tr>
-      <tr>
-        <th>住所</th>
-   　   <th>愛知県名古屋市東のほう</th>
-      </tr>
-      <tr>
-        <th>趣味</th>
-        <th>アニメ視聴、漫画購読、旅行、映画鑑賞、ウェブ開発（初心者）</th>
-      </tr>
-      <tr>
-        <th>所有資格</th>
-        <th>公開できるレベルに達し次第追加</th>
-      </tr>
-      <tr>
-        <th>好きな言葉</th>
-　        <th>Learn from yesterday,<br>Live for today,<br>Hope for tomorrow.</th>
-      </tr>
-    </table>
+       <h2 class="langCng" lang="ja">基本情報</h2>
+       <h2 class="langCng" lang="en">Basic Info</h2>
+　      <table border="1" width="90%">
+       <tr>
+         <th width="20%" class="langCng" lang="ja">名前</th>
+         <th width="20%" class="langCng" lang="en">Name</th>
+         <th width="80%" class="langCng" lang="ja">アイライ</th>
+         <th width="80%" class="langCng" lang="en">Airai</th>
+       </tr>
+       <tr>
+         <th width="20%" class="langCng" lang="ja">年齢</th>
+         <th width="20%" class="langCng" lang="en">Age</th>
+         <th width="80%" class="langCng" lang="ja">16歳</th>
+         <th width="80%" class="langCng" lang="en">16yo</th>
+       </tr>
+       <tr>
+         <th width="20%" class="langCng" lang="ja">住所</th>
+         <th width="20%" class="langCng" lang="en">Adress</th>
+         <th width="80%" class="langCng" lang="ja">愛知県名古屋市東部</th>
+         <th width="80%" class="langCng" lang="en">The East part of Nagoya in AIchi</th>
+       </tr>
+       <tr>
+         <th width="20%" class="langCng" lang="ja">趣味</th>
+         <th width="20%" class="langCng" lang="en">hobby</th>
+         <th width="80%" class="langCng" lang="ja">アニメ、漫画、旅行、映画、ウェブ開発（初心者）</th>
+         <th width="80%" class="langCng" lang="en">anime, comic, travel, movie, develop website</th>
+       </tr>
+       <tr>
+         <th width="20%" class="langCng" lang="ja">資格</th>
+         <th width="20%" class="langCng" lang="en">License</th>
+         <th width="80%" class="langCng" lang="ja">公開できるレベルに達し次第公開</th>
+         <th width="80%" class="langCng" lang="en">I can`t tell you yet.</th>
+       <tr>
+         <th width="20%" class="langCng" lang="ja">好きな言葉</th>
+         <th width="20%" class="langCng" lang="en">Favorite words</th>
+　       <th>Learn from yesterday,<br>Live for today,<br>Hope for tomorrow.</th>
+       </tr>
+     </table>
 
-    </div>
+     </div>
 
-    <div class="side">
-      <a class="twitter-timeline" data-lang="ja" data-height="500px" width="100%" href="https://twitter.com/kYYFNuWDrBiL3u8?ref_src=twsrc%5Etfw">Tweets by kYYFNuWDrBiL3u8</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
+     <div class="side">
+       <a class="twitter-timeline" data-lang="ja" data-height="500px" width="100%" href="https://twitter.com/kYYFNuWDrBiL3u8?ref_src=twsrc%5Etfw">Tweets by kYYFNuWDrBiL3u8</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+     </div>
+
+   </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!--自作のJS-->
+    <script src="アイライのホームページ.js"></script>
+    </body>
 
   </div>
-
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <!--自作のJS-->
-  <script src="アイライのホームページ.js"></script>
-  </body>
 
 </body>
 </html>
