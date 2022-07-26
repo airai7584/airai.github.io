@@ -1,6 +1,8 @@
 html {scroll-behavior: smooth;}
 
-body {margin-top: 0;}
+body {
+  margin-top: 0;
+}
 
 table, td, th{border: 1px solid black;}
 
@@ -48,7 +50,7 @@ h2:after {
 }
 
 .introduce img {
-  width: 20%;
+  width: 30%;
   display: block;
   margin: auto;
 }
