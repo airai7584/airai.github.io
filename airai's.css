@@ -2,7 +2,6 @@ html {scroll-behavior: smooth;}
 
 .index {
   margin-top: 0;
-  background-color: #ffedc2;
   background-image: url("slowloop.png");
   background-size: cover;
 }
