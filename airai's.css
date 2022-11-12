@@ -2,7 +2,7 @@ html {scroll-behavior: smooth;}
 
 /* Loading背景画面設定　*/
 #splash {
-    /*fixedで全面に固定*/
+  /*fixedで全面に固定*/
   position: fixed;
   width: 100%;
   height: 100%;
@@ -16,7 +16,7 @@ html {scroll-behavior: smooth;}
   position: absolute;
   top: 50%;
   left: 50%;
-    z-index: 999;
+  z-index: 999;
   transform: translate(-50%, -50%);
   color: #fff;
   width: 100%;
@@ -29,11 +29,11 @@ html {scroll-behavior: smooth;}
 
 /*割れる画面のアニメーション*/
 .loader_cover {
-    width: 100%;
-    height: 50%;
-    background-color: #333;
-    transition: all .2s cubic-bezier(.04, .435, .315, .9);
-    transform: scaleY(1);
+  width: 100%;
+  height: 50%;
+  background-color: #333;
+  transition: all .2s cubic-bezier(.04, .435, .315, .9);
+  transform: scaleY(1);
 }
 /*上の画面*/
 .loader_cover-up {
@@ -51,7 +51,7 @@ html {scroll-behavior: smooth;}
     transform: scaleY(0);
 }
 
-.index {
+.index,.index2 {
   margin-top: 0;
   background-image: url("slowloop.png");
   background-size: cover;
@@ -59,9 +59,15 @@ html {scroll-behavior: smooth;}
 
 table, td, th{border: 1px solid black;}
 
+.twitter-tweet {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h2 {
   position: relative;
   padding: 0.25em 0;
+  text-align: center;
 }
 h2:after {
   content: "";
@@ -167,11 +173,18 @@ h2:after {
 }
 
 .news {
+  margin: 0 auto;
+  text-align: center;
   background-color: #fff;
 }
 
-.official{
-  display: flex;
+.news-list {
+  text-align: left;
+  display: inline-block;
+}
+
+.news-frame iframe{
+  height: 150px;
 }
 
 .hobby-list ul {
@@ -193,6 +206,15 @@ h2:after {
   position: absolute;
   left : 1em; /*左端からのアイコンまで*/
   color: #339900;; /*アイコン色*/
+}
+
+.official{
+  display: flex;
+}
+
+.sns{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer05 {
