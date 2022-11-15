@@ -83,12 +83,14 @@ h2 {
   padding: 0.25em 0;
   text-align: center;
 }
+
 h2:after {
   content: "";
   display: block;
   height: 4px;
-  background: -webkit-linear-gradient(to right, rgb(230, 90, 90), transparent);
-  background: linear-gradient(to right, rgb(230, 90, 90), transparent);
+  background: 
+  linear-gradient(to right, rgba(255, 17, 0, 0.1) 0%, rgb(255, 17, 0) 30%, rgb(255, 17, 0) 70%, rgba(255, 17, 0, 0.1) 100%);
+  color: #fff;
 }
 
 .header {
@@ -189,17 +191,18 @@ h2:after {
 
 .news {
   margin: 0 auto;
-  text-align: center;
   background-color: #fff;
 }
 
 .news-list {
-  text-align: left;
   display: inline-block;
 }
 
 .news-frame iframe{
+  display: block;
   height: 150px;
+  width: 75%;
+  margin: auto;
 }
 
 .hobby-list ul {
@@ -207,6 +210,8 @@ h2:after {
   padding: 0.5em 1em 0.5em 2.3em;
   position: relative;
   background-color: white;
+  width: 75%;
+  margin: auto;
 }
 
 .hobby-list ul li {
@@ -223,13 +228,16 @@ h2:after {
   color: #339900;; /*アイコン色*/
 }
 
-.official{
+.sns {
+  background-color: rgba(255, 255, 255, 0.75);
   display: flex;
-}
-
-.sns{
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.sns p {
+  margin: auto;
 }
 
 details {
