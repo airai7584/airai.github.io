@@ -125,7 +125,7 @@ h2:after {
   width: 100%;
   max-width:400px;
   position: relative;
-  background: #fff; /*背景の色*/
+  background: rgba(255, 255, 255, 0.75); /*背景の色*/
   box-shadow: 0px 1px 3px rgba(0,0,0,.18);
   overflow: hidden;
   margin: 20px auto auto auto;
@@ -191,7 +191,7 @@ h2:after {
 
 .news {
   margin: 0 auto;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.75);
 }
 
 .news-list {
@@ -209,7 +209,7 @@ h2:after {
   border: solid 2px #339900;;
   padding: 0.5em 1em 0.5em 2.3em;
   position: relative;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.75);
   width: 75%;
   margin: auto;
 }
@@ -232,11 +232,15 @@ h2:after {
   background-color: rgba(255, 255, 255, 0.75);
   display: flex;
   width: 75%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 10px auto 10px auto;
 }
 
-.sns p {
+.sns-text{
+  width: 60%;
+  text-align: center;
+}
+
+.sns-text h3 {
   margin: auto;
 }
 
@@ -268,65 +272,18 @@ details p {
   padding: 20px;
 }
 
-.footer05 {
- color: #808080;
- background: #e5e5e5;
- padding: 30px;
-}
-.footer05 a {
- color: #808080;
- text-decoration: none;
-}
-.footer05 li a:hover {
- text-decoration: underline;
-}
-.footer05 .wrap {
- width: 90%;
- margin: 0 auto;
- display: flex;
- flex-wrap: wrap;
- justify-content: space-between;
-}
-.footer05 .wrap h3 {
- margin: 0 0 10px 0;
- padding: 0;
- border-bottom: 1px #c4c4c4 solid;
-}
-.footer05 .wrap p {
- margin: 0;
- padding: 0 0 20px 0;
-}
-.footer05 .wrap .box {
- width: 22%;
-}
-.footer05 .wrap .box ul {
- margin: 0;
- padding: 0 0 20px 0;
- list-style: none;
-}
-.footer05 .wrap .copyright {
- width: 100%;
- padding: 20px 0 0 0;
+footer{
+  width: 100%;
+  height: 100px;
+  background-color: #9b9b9b;
+  color: rgb(0, 0, 0);
+  text-align: center;
 }
 
-@media only screen and (max-width: 599px) {
-.footer05 .wrap {
- width: 100%;
- padding: 0 20px;
- box-sizing: border-box;
+ul.footer-menu li {
+  list-style: none;
 }
-.footer05 .wrap h3 {
- border: none;
-}
-.footer05 .wrap .box {
- width: 100%;
-}
-.footer05 .wrap .box ul {
- border-top: 1px #c4c4c4 solid;
-}
-.footer05 .wrap .box ul li a {
- display: block;
- padding: 5px 15px;
- border-bottom: 1px #c4c4c4 solid;
-}
+
+ul.home-menu li {
+  display: inline;
 }
