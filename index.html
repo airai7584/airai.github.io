@@ -1,124 +1,164 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=no">
-    <title>Airai</title>
-    <link rel="stylesheet" type="text/css" href="airai's.css">
-    <link rel=”icon” href=“favicon.ico”>
-  </head>
 
-  <body class="index">
-    <div id="splash">
-      <div id="splash_text"></div>
-      <div class="loader_cover loader_cover-up"></div>
-      <div class="loader_cover loader_cover-down"></div>
-    </div>
+    <head>
+        <meta charset="UTF-8" name="viewpoint" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=no">
+        <title>Airai</title>
+        <link rel="stylesheet" type="text/css" href="airai.css">
+        <link rel=”icon” href=“favicon.ico”>        
+    </head>
 
-    <header class="header">
-      <nav class="navigation">
-        <ul>
-          <li><a href=#info>News</a></li>
-          <li><a href=#hobby>Hobby</a>
-          <li><a href=#official>Links</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div class="profile-card">
-      <div class="profile-card__inner">
-        <div class="profile-thumb">
-          <img src="hayasaka-ai.jpg" alt="アイコン">
+    <body class="index">
+
+        <header>
+            <a href="index.html"><img src="favicon.ico" alt="アイコン"></a>
+            <ul class="header-menu">
+                <li><a href="#profile-h2">自己紹介</a></li>
+                <li><a href="#news-h2">最新情報</a></li>
+                <li><a href="#hobby-h2">趣味など</a></li>
+                <li><a href="#recommend-h2">おすすめページ</a></li>
+                <li><a href="#links-h2">外部リンク</a></li>
+            </ul>
+        </header>
+        
+        <h2 id="profile-h2" class="top-h2">自己紹介</h2>
+        <div class="profile">
+            <div class="profile-card">
+                <div class="name">
+                    <h3>アイライ</h3>
+                    <p>@airai7584</p>
+                    <img src="hayasaka-ai.jpg" alt="Twitterのアイコン" width="20%">
+                </div>
+                <div class="yo">
+                    <p class="pro-title">年齢：</p>
+                    <p class="pro-text">17歳</p>
+                </div>
+                <div class="birth">
+                    <p class="pro-title">生誕：</p>
+                    <p class="pro-text">2005年8月16日</p>
+                </div>
+                <div class="nationality">
+                    <p class="pro-title">国籍：</p>
+                    <p class="pro-text">日本</p>
+                </div>
+                <div class="address">
+                    <p class="pro-title">住所：</p>
+                    <p class="pro-text">愛知県春日井市</p>
+                </div>
+                <div class="favorite">
+                    <p class="pro-title">趣味：</p>
+                    <p class="pro-text"><a href="#hobby">趣味など</a>を参照</p>
+                </div>
+                <div >
+                    <p class="pro-title"></p>
+                    <p class="pro-text"></p>
+                </div>
+            </div>
         </div>
-        <div class="profile-content">
-          <span class="profile-name">アイライ</span>
-          <span class="profile-job">Twitter一般ユーザー</span>
-          <span class="profile-intro">年齢：17歳<hr>誕生：2005年8月<hr>国籍：日本<hr>住所：愛知県春日井市<hr>趣味：<a href=#hobby>Hobby</a>を参照<hr>詳細：<a href="https://profcard.info/u/mADnwSdZqwbYtspkQML5OyppYuz2">プロフカード</a>（追加してほしい情報あれば教えてください）</span>
+
+        <h2 id="news-h2">最新情報</h2>
+        <div class="news">
+            <iframe src="news.html" frameborder="0"></iframe>
         </div>
-      </div>
-    </div>
 
-    <h2 id="info">News</h2>
-    <div class="news-frame">
-      <iframe src="news.html" width="95%" height="110" class="news-iframe"></iframe>
-    </div>
-
-    <div class="hobby-list">
-      <h2 id="hobby">Hobby</h2>
-      <ul>
-        <li>アニメ<br><a href="https://annict.com/@airai7584/watching">アニメの視聴状況</a></li>
-        <li>漫画</li>
-        <li>旅行</li>
-        <li>映画</li>
-        <li>世界史（近世～現代）</li>
-        <li>ボカロ</li>
-        <li>アニソン</li>
-        <li>ゲーム</li>
-        <li>カフェ巡り</li>
-        <li>bot作成<br><a href="https://twitter.com/bot_airai">bot垢はこちら</a></li>
-        <li>ウェブ開発（初心者）</li>
-      </ul>
-  </div>
-
-    <h2 id="links">Links</h2>
-    <div id="official">
-
-      <div class="sns">
-        <a href="https://twitter.com/airai7584"><img src="twitter.png" alt="Twitter" width="80px"></a>
-        <div class="sns-text">
-          <h3>Twitter</h3>
-          <p>色々ツイートをしています</p>  
+        <h2 id="hobby-h2">趣味など</h2>
+        <div class="hobby">
+            <ul>
+                <li>アニメ</li>
+                <li>漫画</li>
+                <li>趣味</li>
+                <li>映画</li>
+                <li>世界史（近世～現代）</li>
+                <li>ボカロ</li>
+                <li>アニソン</li>
+                <li>ゲーム</li>
+                <li>カフェ巡り</li>
+                <li>bot作成</li>
+                <li>プログラミング</li>
+            </ul>
         </div>
-      </div>
 
-      <div class="sns">
-        <a href="https://www.nicovideo.jp/user/123747312"><img src="niconico.png" alt="ニコニコ動画" width="80px"></a>
-        <div class="sns-text">
-          <h3>niconico</h3>
-          <p>マイリストにあります</p>  
+        <h2 id="recommend-h2">おすすめページ</h2>
+        <div class="recommend">
+            <ul>
+                <li><a href="index2.html">就寝ツイートまとめ</a></li>
+            </ul>    
         </div>
-      </div>
 
-      <div class="sns">
-        <a href="https://peing.net/ja/airai7584"><img src="question.png" alt="peing" width="80px"></a>
-        <div class="sns-text">
-          <h3>Peing</h3>
-          <p>どんどん質問してね</p>  
+        <h2 id="links-h2">外部リンク</h2>
+        <div class="links">
+            <p>ロゴを押すとサイトに飛びます</p>
+
+            <div class="link">
+                <a href="https://twitter.com/airai7584"><img src="twitter.png" alt="Twitter"></a>
+                <div class="link-text">
+                    <h3>twitter</h3>
+                    <p>適当に呟いてます</p>
+                </div>
+            </div>
+            
+            <div class="link">
+                <a href="https://www.nicovideo.jp/my/mylist?ref=pc_mypage_menu"><img src="niconico.png" alt="ニコニコ動画"></a>
+                <div class="link-text">
+                    <h3>ニコニコ動画</h3>
+                    <p>適当な動画ばかり</p>
+                </div>
+            </div>
+
+            <div class="link">
+                <a href="https://peing.net/ja/airai7584"><img src="peing.png" alt="質問箱"></a>
+                <div class="link-text">
+                    <h3>質問箱</h3>
+                    <p>どんどん質問ください！</p>
+                </div>
+            </div>
+
+            <div class="link">
+                <a href="https://space.bilibili.com/2144476557/favlist"><img src="bilibili.png" alt="ビリビリ動画"></a>
+                <div class="link-text">
+                    <h3>ビリビリ動画</h3>
+                    <p>適当な動画ばかり（2回目）</p>
+                </div>
+            </div>
+
+            <div class="link">
+                <a href="https://annict.com/@airai7584/watching"><img src="anikuto.png" alt="アニクト"></a>
+                <div class="link-text">
+                    <h3>アニクト</h3>
+                    <p>アニメの視聴状況まとめてる</p>
+                </div>
+            </div>
+
         </div>
-      </div>
 
-      <div class="sns">
-        <a href="https://space.bilibili.com/2144476557"><img src="bilibili.png" alt="ビリビリ動画" width="80px"></a>
-        <div class="sns-text">
-          <h3>bilibili</h3>
-          <p>あんま見てない</p>  
+        <div class="wrapper">
+            <footer>
+                <div class="footer-top">
+                    <h3><a href="index.html">トップページ</a></h3>
+                    <p>
+                        <hr>
+                        <a href="index.html#profile-h2">自己紹介</a><hr>
+                        <a href="index.html#news-h2">最新情報</a><hr>
+                        <a href="index.html#hobby-h2">趣味など</a><hr>
+                        <a href="index.html#recommend-h2">おすすめページ</a><hr>
+                        <a href="index.html#links-h2">外部リンク</a><hr>
+                    </p>
+                </div>
+                
+                <div class="fotter-night">
+                    <h3><a href="index2.html">就寝ツイート</a></h3>
+                    <p>
+                        <hr>
+                        <a href="index2.html#Jul">7月</a><hr>
+                        <a href="index2.html#Aug">8月</a><hr>
+                        <a href="index2.html#Sep">9月</a><hr>
+                        <a href="index2.html#Oct">10月</a><hr>
+                        <a href="index2.html#Nov">11月</a><hr>
+                    </p>
+                </div>
+            </footer>
         </div>
-      </div>
-      
-  </div>
 
-  <footer>
-    <ul class="footer-menu">
-      <li>
-        Home
-        <ul class="home-menu">
-          <li><a href="#info">News</a>|
-          </li>
-          <li><a href="#hobby">Hobby</a>|</li>
-          <li><a href="#links">Links</a>|</li>
-        </ul>
-      </li>
-      <li>Night-gallery</li>
-    </ul>
-  </footer>
-
-<!--==============JQuery読み込み===============-->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
-    <!--IE11用※対応しなければ削除してください-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js"></script>
-    <!--自作のJS-->
-    <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/4-1-3/js/4-1-3.js"></script>
-
-  </body>
+    </body>
+    
 </html>
